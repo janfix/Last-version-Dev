@@ -90,7 +90,7 @@ define([
             value: 200,
             min: 100,
             max: 300,
-            step: 50,
+            step: 2,
             slide: function (event, ui) {
                 $ray = ui.value;
                 if (answray == "ray-non") {
@@ -100,6 +100,7 @@ define([
                 $taille.html("");
                 var tailkm = 25 * $ray * ($ray / 100);
                 tailkm = Math.round(tailkm);
+                tailkm = 100*Math.floor(tailkm/100)
                 $container.find(".path4151").attr("r", ui.value);
                 $container.find(".path4151-6").attr("r", ui.value);
                 $taille.append(tailkm + " km");
