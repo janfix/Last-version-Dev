@@ -4,6 +4,10 @@ Copyright DEPP © 2017 - Ministère de l'éducation nationale
 
 /*add some style, need to scope (using the typeIdentifier as class prefix) every style declaration to prevent collision */
 
+.qti-customInteraction .nterre .wall{
+    border : none!important;
+}
+
 .qti-customInteraction .nterre .exposant {
     top: -1.5rem!important;
     font-size : 12px;
