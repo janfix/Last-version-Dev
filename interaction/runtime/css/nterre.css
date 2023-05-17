@@ -2,15 +2,16 @@
 Copyright DEPP © 2017 - Ministère de l'éducation nationale  
 */
 
+
 /*add some style, need to scope (using the typeIdentifier as class prefix) every style declaration to prevent collision */
 
-.qti-customInteraction .nterre .wall{
-    border : none!important;
+.qti-customInteraction .nterre .wall {
+    border: none!important;
 }
 
 .qti-customInteraction .nterre .exposant {
     top: -1.5rem!important;
-    font-size : 12px;
+    font-size: 12px;
 }
 
 .qti-customInteraction .nterre .nterransw {
@@ -49,7 +50,6 @@ Copyright DEPP © 2017 - Ministère de l'éducation nationale
     stroke-opacity: 0.39215686;
     filter: url(#filter5823)
 }
-
 
 .qti-customInteraction .nterre .path5936 {
     opacity: 1;
@@ -248,8 +248,9 @@ Copyright DEPP © 2017 - Ministère de l'éducation nationale
 
 .qti-customInteraction .nterre .param {
     text-align: center;
-    width: 200px;
-    margin-right : 20px;
+    width: 200px!important;
+    margin-right: 20px;
+    height: 25px;
 }
 
 .qti-customInteraction .nterre .gravitas {
@@ -351,7 +352,7 @@ Copyright DEPP © 2017 - Ministère de l'éducation nationale
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-} 
+}
 
 .qti-customInteraction .nterre body {
     background: #2b2e31;
@@ -435,21 +436,33 @@ Copyright DEPP © 2017 - Ministère de l'éducation nationale
     /* W3C */
 }
 
-.qti-customInteraction .nterre .ui-slider-handle{
-    width : 20px!important;
-    height : 30px!important;
+.qti-customInteraction .nterre .ui-slider-handle {
+    width: 20px!important;
+    height: 20px!important;
     border-radius: 25%!important;
-    background-color: #529de1!important;
+    background-color: #0162db!important;
+    margin-top: 1px!important;
 }
 
-.qti-customInteraction .nterre .param{ 
-     
-     border-color : transparent;
-  
+.qti-customInteraction .nterre .param {
+    border-color: transparent;
 }
 
-.qti-customInteraction .nterre .ui-slider { 
-     background-color: whitesmoke;
+.qti-customInteraction .nterre .ui-slider {
+    background-color: whitesmoke;
     border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
+.qti-customInteraction .nterre .ui-widget-content {
+    width: 20px;
+    margin: auto;
+}
+
+.qti-customInteraction .nterre .sizer {
+    width: 230px;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    padding-right: 10px;
+}

@@ -6,7 +6,7 @@
                 <div class="etoile">Etoile</div>
                 <div class="gravitas">Modifier les paramètres pour faire varier la force de gravitation</div>
             </div>
-    
+
             <div class="nterrecommande">
                 <div class="cmdajuster">
                     <table>
@@ -18,11 +18,23 @@
                             <td class="param">Rayon de la planète</td>
                         </tr>
                         <tr>
-                            <td class="param cmddist">&nbsp;</td>
+                            <td>
+                                <div class="sizer">
+                                    <div class="param cmddist"></div>
+                                </div>
+                            </td>
                             <td class="wall">&nbsp; &nbsp; &nbsp; &nbsp;</td>
-                            <td class="param cmdmas">&nbsp;</td>
+                            <td>
+                                <div class="sizer">
+                                    <div class="param cmdmas"></div>
+                                </div>
+                            </td>
                             <td class="wall">&nbsp; &nbsp; &nbsp; &nbsp;</td>
-                            <td class="param cmdray">&nbsp;</td>
+                            <td>
+                                <div class="sizer">
+                                    <div class="cmdray param"></div>
+                                </div>
+                            </td>
                         </tr>
                         <tr>
                             <td class="param distance">km</td>
@@ -31,14 +43,14 @@
                             <td class="wall">&nbsp; &nbsp; &nbsp; &nbsp;</td>
                             <td class="param taille">km</td>
                         </tr>
-    
-    
+
+
                     </table>
                 </div>
             </div>
-    
+
         </div>
-    
+
         <div class="nterransw">
             <div class="distanceAsw">false</div>
             <div class="masseAsw">false</div>
